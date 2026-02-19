@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Planning BTS2 SIO SLAM — Fév–Mai 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0f1117;--sf:#1a1d27;--s2:#242836;--bd:#2e3346;--tx:#e2e4ed;--mu:#8b8fa3;--gn:#34d399;--or:#f59e0b;--rd:#ef4444;--pr:#a78bfa;--bl:#4f8ff7;--gb:#064e3b;--ob:#78350f;--rb:#7f1d1d;--pb:#312e81;--vc:#1e293b}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--tx);line-height:1.6;padding:2rem}
+.c{max-width:1400px;margin:0 auto}
+header{text-align:center;margin-bottom:2rem;padding:2rem;background:linear-gradient(135deg,#1a1d27,#242836);border:1px solid var(--bd);border-radius:16px}
+header h1{font-family:'JetBrains Mono',monospace;font-size:1.6rem;font-weight:700;margin-bottom:.3rem}
+header h1 span{color:var(--bl)}
+header p{color:var(--mu);font-size:.85rem}
+.wg{display:grid;gap:.5rem;margin-bottom:2rem}
+.wr{display:grid;grid-template-columns:130px 1fr 1fr 1fr;gap:.5rem;min-height:55px}
+.wl{font-family:'JetBrains Mono',monospace;font-size:.75rem;color:var(--mu);padding:.6rem;display:flex;flex-direction:column;justify-content:center;background:var(--sf);border-radius:8px;border-left:3px solid var(--bd)}
+.wl .wn{font-weight:700;color:var(--tx);font-size:.8rem}.wl .wd{font-size:.65rem;margin-top:2px}
+.dc{background:var(--sf);border-radius:8px;padding:.5rem .6rem;border:1px solid var(--bd);overflow:hidden}
+.dc:hover{border-color:var(--bl)}
+.dn{font-family:'JetBrains Mono',monospace;font-size:.6rem;text-transform:uppercase;letter-spacing:.08em;color:var(--mu);margin-bottom:.2rem}
+.dt{font-size:.72rem;line-height:1.45}
+.tg{display:inline-block;padding:1px 5px;border-radius:3px;font-size:.6rem;font-weight:600;font-family:'JetBrains Mono',monospace;margin-bottom:2px;text-transform:uppercase}
+.t1{background:var(--pb);color:#c4b5fd}.t2{background:var(--gb);color:#6ee7b7}.tx{background:var(--rb);color:#fca5a5}.tc{background:var(--ob);color:#fcd34d}.tp{background:#1e1b4b;color:#c4b5fd}
+.va{background:repeating-linear-gradient(45deg,var(--vc),var(--vc) 10px,#1b2433 10px,#1b2433 20px);border-color:#334155;grid-column:span 3;display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;font-size:.8rem;color:#64748b;font-weight:600;letter-spacing:.1em;text-transform:uppercase;border-radius:8px;padding:1.2rem}
+.hr{border-left:3px solid var(--rd)!important}.hg{border-left:3px solid var(--gn)!important}.hb{border-left:3px solid var(--bl)!important}.ho{border-left:3px solid var(--or)!important}
+.eb{background:linear-gradient(135deg,#450a0a,#7f1d1d);color:#fca5a5;font-weight:700;font-size:.7rem;padding:2px 5px;border-radius:4px;display:inline-block;margin-top:2px}
+.mh{font-family:'JetBrains Mono',monospace;font-size:1.1rem;font-weight:700;margin-bottom:.75rem;padding-bottom:.4rem;border-bottom:2px solid var(--bd);display:flex;align-items:center;gap:.6rem}
+.mi{width:30px;height:30px;border-radius:6px;display:flex;align-items:center;justify-content:center;font-size:.9rem}
+.sub{font-size:.65rem;color:var(--mu);margin-top:1px;font-style:italic}
+footer{text-align:center;padding:1.5rem;color:var(--mu);font-size:.75rem;border-top:1px solid var(--bd);margin-top:1.5rem}
+@media(max-width:900px){.wr{grid-template-columns:1fr}.va{grid-column:span 1}body{padding:1rem}}
+</style>
+</head>
+<body>
+<div class="c">
+
+<header>
+  <h1><span>BTS2 SIO SLAM</span> — Planning détaillé</h1>
+  <p>Fév–Mai 2026 · SP BiblioTech Laravel 12 / PHP 8.3 / SQLite · Lun matin · Mar après-midi · Mer matin</p>
+</header>
+
+<!-- FÉV -->
+<div class="mh"><div class="mi" style="background:var(--bl);color:#fff">02</div>FÉVRIER</div>
+<div class="wg">
+  <div class="wr">
+    <div class="wl"><span class="wn">S9</span><span class="wd">23–27 fév</span></div>
+    <div class="dc hb"><div class="dn">Lun 23 matin</div><div class="dt"><span class="tg t1">B1</span><br><strong>Retour de stage</strong> · Bilan · Rapport · Planning fin d'année · Lancement Portfolio/E5</div></div>
+    <div class="dc hg"><div class="dn">Mar 24 après-midi</div><div class="dt"><span class="tg t2">B2 · Reprise S1-S3</span><br><strong>Reprise SP BiblioTech</strong> · Vérif environnement (PHP 8.3, SQLite, Git) · Reprise acquis : Routes, MVC, Eloquent (`Livre::all()`, relations `belongsTo`/`hasMany`), CRUD Resource (7 actions), Validation</div></div>
+    <div class="dc hb"><div class="dn">Mer 25 matin</div><div class="dt"><span class="tg t1">B1</span> <span class="tg tp">E5</span><br>Portfolio · Intégration bilan stage · GitHub.io · Certifications (GitHub Foundations, IA) · Veille</div></div>
+  </div>
+</div>
+
+<!-- MARS -->
+<div class="mh"><div class="mi" style="background:var(--gn);color:#fff">03</div>MARS</div>
+<div class="wg">
+  <div class="wr">
+    <div class="wl"><span class="wn">S10</span><span class="wd">2–6 mars</span></div>
+    <div class="dc hg"><div class="dn">Lun 2 matin</div><div class="dt"><span class="tg t2">B2 · SP Séance 4</span><br><strong>Auth & Autorisations (1/2)</strong><br>Authentification vs Autorisation · Login/Register/Logout · Sessions (token → cookie → `Auth::user()`) · Hashage bcrypt (`Hash::check()`) · Protection CSRF (`@csrf`)</div></div>
+    <div class="dc hg"><div class="dn">Mar 3 après-midi</div><div class="dt"><span class="tg t2">B2 · SP Séance 4</span><br><strong>Auth & Autorisations (2/2)</strong><br>Middleware `auth` (protection routes) · Rôles : Admin / Bibliothécaire / Utilisateur · Affichage conditionnel Blade · « Se souvenir de moi » · Déconnexion sécurisée<div class="sub">Évaluation S4 — Validation ≥ 12/20</div></div></div>
+    <div class="dc hb"><div class="dn">Mer 4 matin</div><div class="dt"><span class="tg t1">B1</span> <span class="tg tp">E5</span><br>Portfolio — Structuration : projets S1, stage, veille, certifications</div></div>
+  </div>
+  <div class="wr">
+    <div class="wl"><span class="wn">S11</span><span class="wd">9–13 mars</span></div>
+    <div class="dc hg"><div class="dn">Lun 9 matin</div><div class="dt"><span class="tg t2">B2 · SP Séance 5</span><br><strong>Tests automatisés</strong><br>Tests unitaires (`tests/Unit/`) · Tests fonctionnels (`tests/Feature/`) · Assertions (`assertStatus`, `assertSee`, `assertDatabaseHas`) · Trait `RefreshDatabase` · Couverture > 70%</div></div>
+    <div class="dc hg"><div class="dn">Mar 10 après-midi</div><div class="dt"><span class="tg t2">B2 · SP Séance 5</span><br><strong>CI/CD & SonarCloud</strong><br>GitHub Actions : `.github/workflows/ci.yml` (PHP → Composer → .env → SQLite → tests) · Badge vert/rouge · SonarCloud : bugs, vulnérabilités, code smells, dette technique · Quality Gate · `sonar-project.properties`</div></div>
+    <div class="dc hb"><div class="dn">Mer 11 matin</div><div class="dt"><span class="tg t1">B1</span> <span class="tg tp">E5</span><br>Tableau de synthèse E5 · Mapping compétences Bloc 1 ↔ réalisations (BiblioTech, SonarCloud = A1.4, CI/CD = A1.5)</div></div>
+  </div>
+  <div class="wr">
+    <div class="wl"><span class="wn">S12</span><span class="wd">16–20 mars</span></div>
+    <div class="dc hg"><div class="dn">Lun 16 matin</div><div class="dt"><span class="tg t2">B2 · SP Séance 5</span><br><strong>Déploiement & Monitoring</strong><br>Config prod (`APP_DEBUG=false`, HTTPS Let's Encrypt) · Optimisations (`config:cache`, `route:cache`, `view:cache`) · Deploy (clone → Composer → .env → migrations) · Health Check (`/health/deep`) · Logs · Sentry · Rollback (tags Git)</div></div>
+    <div class="dc hg"><div class="dn">Mar 17 après-midi</div><div class="dt"><span class="tg t2">B2 · Documentation</span><br><strong>Doc technique + utilisateur + E5/E6</strong><br>Architecture MVC BiblioTech · Schéma BDD (MCD/MLD) · Choix technologiques argumentés · Guide utilisateur · Fiches descriptives · Captures SonarCloud + Actions · Complétion tableau E5</div></div>
+    <div class="dc hb"><div class="dn">Mer 18 matin</div><div class="dt"><span class="tg t1">B1</span> <span class="tg tp">E5</span><br>Simulation oral E5 · Présentation parcours de professionnalisation</div></div>
+  </div>
+  <div class="wr">
+    <div class="wl"><span class="wn">S13</span><span class="wd">23–27 mars</span></div>
+    <div class="dc ho"><div class="dn">Lun 23 matin</div><div class="dt"><span class="tg tc">BLANC E6</span><br><strong>Entraînement blanc E6 (1/2)</strong><br>Table (30 min) : analyse expression des besoins · Entretien E1 (20 min) : explicitation réalisation BiblioTech · Débriefing</div></div>
+    <div class="dc ho"><div class="dn">Mar 24 après-midi</div><div class="dt"><span class="tg tc">BLANC E6</span><br><strong>Entraînement blanc E6 (2/2)</strong><br>Réalisation en environnement techno (60 min) · Entretien E2 recette (20 min) · Débriefing · Points de vigilance : justifier choix Laravel, SQLite, SonarCloud</div></div>
+    <div class="dc hb"><div class="dn">Mer 25 matin</div><div class="dt"><span class="tg t1">B1</span><br>Portfolio — Finitions · Captures SonarCloud / GitHub Actions</div></div>
+  </div>
+  <div class="wr">
+    <div class="wl" style="border-left-color:var(--rd)"><span class="wn">S14</span><span class="wd">30 mars – 1 avr</span></div>
+    <div class="dc hr" style="background:linear-gradient(135deg,#1c1008,#2a1206)"><div class="dn">Lun 30 mars</div><div class="dt"><span class="tg tc">CCF E6</span><br><strong>CCF E6 SLAM — Jour 1</strong><div class="eb">ÉPREUVE</div></div></div>
+    <div class="dc hr" style="background:linear-gradient(135deg,#1c1008,#2a1206)"><div class="dn">Mar 31 mars</div><div class="dt"><span class="tg tc">CCF E6</span><br><strong>CCF E6 SLAM — Jour 2</strong><div class="eb">ÉPREUVE</div></div></div>
+    <div class="dc hr" style="background:linear-gradient(135deg,#1c1008,#2a1206)"><div class="dn">Mer 1er avril</div><div class="dt"><span class="tg tc">CCF E6</span><br><strong>CCF E6 SLAM — Jour 3</strong><div class="eb">ÉPREUVE</div></div></div>
+  </div>
+</div>
+
+<!-- AVRIL -->
+<div class="mh"><div class="mi" style="background:var(--pr);color:#fff">04</div>AVRIL</div>
+<div class="wg">
+  <div class="wr">
+    <div class="wl" style="border-left-color:#334155"><span class="wn">S15–S16</span><span class="wd">4–19 avr</span></div>
+    <div class="va">VACANCES DE PRINTEMPS</div>
+  </div>
+  <div class="wr">
+    <div class="wl"><span class="wn">S17</span><span class="wd">20–24 avr</span></div>
+    <div class="dc ho"><div class="dn">Lun 20 matin</div><div class="dt"><span class="tg tc">EDC</span><br>Révisions EDC SLAM · Algorithmique · Structures de données · BDD (SQL, normalisation)</div></div>
+    <div class="dc ho"><div class="dn">Mar 21 après-midi</div><div class="dt"><span class="tg tc">EDC</span><br>Révisions EDC SLAM · Cybersécurité (RGPD, OWASP) · Annales E7</div></div>
+    <div class="dc hb"><div class="dn">Mer 22 matin</div><div class="dt"><span class="tg t1">B1</span> <span class="tg tp">E5</span><br>Portfolio — Retour CCF · Derniers ajustements</div></div>
+  </div>
+  <div class="wr">
+    <div class="wl"><span class="wn">S18</span><span class="wd">27 avr – 1 mai</span></div>
+    <div class="dc ho"><div class="dn">Lun 27 matin</div><div class="dt"><span class="tg tc">EDC</span><br>Révisions EDC SLAM · Annales chronométrées</div></div>
+    <div class="dc ho"><div class="dn">Mar 28 après-midi</div><div class="dt"><span class="tg tc">EDC</span><br>Révisions EDC SLAM · Annales chronométrées</div></div>
+    <div class="dc hb"><div class="dn">Mer 29 matin</div><div class="dt"><span class="tg t1">B1</span> <span class="tg tp">E5</span><br>Préparation E5 oral · Simulation</div></div>
+  </div>
+</div>
+
+<!-- MAI -->
+<div class="mh"><div class="mi" style="background:var(--rd);color:#fff">05</div>MAI</div>
+<div class="wg">
+  <div class="wr">
+    <div class="wl"><span class="wn">S19</span><span class="wd">4–8 mai</span></div>
+    <div class="dc ho"><div class="dn">Lun 4 matin</div><div class="dt"><span class="tg tc">EDC</span><br>Révisions EDC SLAM · Dernières annales</div></div>
+    <div class="dc ho"><div class="dn">Mar 5 après-midi</div><div class="dt"><span class="tg tc">EDC</span><br>Révisions EDC SLAM · Dernières annales E7</div></div>
+    <div class="dc hb"><div class="dn">Mer 6 matin</div><div class="dt"><span class="tg t1">B1</span> <span class="tg tp">E5</span><br>Simulation oral E5</div></div>
+  </div>
+  <div class="wr">
+    <div class="wl"><span class="wn">S20</span><span class="wd">11–15 mai</span></div>
+    <div class="dc ho"><div class="dn">Lun 11 matin</div><div class="dt"><span class="tg tc">EDC</span><br>Dernière ligne droite · Questions/réponses</div></div>
+    <div class="dc ho"><div class="dn">Mar 12 après-midi</div><div class="dt"><span class="tg tc">EDC</span><br>Dernières révisions EDC SLAM</div></div>
+    <div class="dc hb"><div class="dn">Mer 13 matin</div><div class="dt"><span class="tg t1">B1</span> <span class="tg tp">E5</span><br>Dernière simulation E5</div></div>
+  </div>
+  <div class="wr">
+    <div class="wl" style="border-left-color:var(--rd)"><span class="wn">S21</span><span class="wd">18–21 mai</span></div>
+    <div class="dc hr" style="background:linear-gradient(135deg,#1c1008,#2a1206)"><div class="dn">Lun 18 mai</div><div class="dt"><span class="tg tx">BTS</span><br><strong>E3 Maths info</strong> 16h–18h<div class="eb">ÉPREUVE ÉCRITE</div></div></div>
+    <div class="dc hr" style="background:linear-gradient(135deg,#1c1008,#2a1206)"><div class="dn">Mar 19 – Mer 20</div><div class="dt"><span class="tg tx">BTS</span><br>Épreuves écrites<div class="eb">ÉPREUVES</div></div></div>
+    <div class="dc hr" style="background:linear-gradient(135deg,#1c1008,#2a1206)"><div class="dn">Jeu 21 mai</div><div class="dt"><span class="tg tx">BTS</span><br><strong>E7 Cybersécurité</strong> 14h–18h<div class="eb">ÉPREUVE ÉCRITE</div></div></div>
+  </div>
+  <div class="wr">
+    <div class="wl" style="border-left-color:var(--rd)"><span class="wn">S22</span><span class="wd">25–29 mai</span></div>
+    <div class="dc" style="background:var(--vc);border-color:#334155"><div class="dn">Lun 25</div><div class="dt" style="color:#64748b">Pentecôte — Férié</div></div>
+    <div class="dc" style="opacity:.15"></div>
+    <div class="dc hr" style="background:linear-gradient(135deg,#1c1008,#2a1206)"><div class="dn">Mer 27 mai</div><div class="dt"><span class="tg tx">E5</span><br><strong>ÉPREUVE E5</strong><br>Oral Parcours pro<div class="eb">ÉPREUVE ORALE</div></div></div>
+  </div>
+</div>
+
+<footer>BTS SIO SLAM — Session 2026 · SP BiblioTech Laravel 12 / PHP 8.3 / SQLite</footer>
+</div>
+</body>
+</html>

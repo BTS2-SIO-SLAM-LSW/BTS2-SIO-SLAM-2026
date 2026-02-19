@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calendrier BTS2 SIO SLAM — Fév–Mai 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&family=Instrument+Serif&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#08090c;--sf:#111318;--s2:#181b23;--bd:#1f2330;--tx:#e8eaf0;--mu:#5a5f73;--dm:#3a3f50;--gn:#22c55e;--gb:#052e16;--or:#f59e0b;--ob:#451a03;--rd:#ef4444;--rb:#450a0a;--pr:#a78bfa;--pb:#1e1b4b;--v1:#0f1219;--v2:#141822}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Space Grotesk',sans-serif;background:var(--bg);color:var(--tx);padding:2rem}
+.pg{max-width:1200px;margin:0 auto}
+.hr{padding:3rem 0 2rem;border-bottom:1px solid var(--bd);margin-bottom:2rem}
+.hr h1{font-family:'Instrument Serif',serif;font-size:3rem;font-weight:400;letter-spacing:-.03em;line-height:1.1;margin-bottom:.75rem}
+.hr h1 em{font-style:italic;color:var(--gn)}
+.hr p{color:var(--mu);font-size:.9rem}
+.lg{display:flex;gap:1.5rem;flex-wrap:wrap;padding:1rem 0;border-bottom:1px solid var(--bd);margin-bottom:2rem}
+.li{display:flex;align-items:center;gap:.4rem;font-size:.72rem;color:var(--mu)}
+.ld{width:8px;height:8px;border-radius:2px}
+.cl{display:grid;grid-template-columns:repeat(7,1fr);gap:2px;margin-bottom:2.5rem;background:var(--bd);border-radius:12px;overflow:hidden;border:1px solid var(--bd)}
+.hd{background:var(--sf);padding:.6rem .4rem;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:.65rem;font-weight:600;color:var(--mu);text-transform:uppercase;letter-spacing:.1em}
+.dy{background:var(--sf);min-height:82px;padding:.4rem;position:relative;transition:background .15s}
+.dy:hover{background:var(--s2)}
+.dy .n{font-family:'IBM Plex Mono',monospace;font-size:.75rem;font-weight:600;color:var(--dm);margin-bottom:2px}
+.dy.hc .n{color:var(--mu)}
+.dy.we{background:var(--bg)}.dy.we .n{color:var(--dm);opacity:.5}
+.dy.vc{background:repeating-linear-gradient(135deg,var(--v1),var(--v1) 4px,var(--v2) 4px,var(--v2) 8px)}
+.dy.fe{background:#100e08}.dy.fe .n{color:#92400e}
+.ms{grid-column:1/-1;background:var(--s2);padding:.5rem 1rem;font-family:'IBM Plex Mono',monospace;font-size:.8rem;font-weight:700;color:var(--mu);letter-spacing:.15em;text-transform:uppercase;display:flex;align-items:center;gap:.75rem}
+.ms::after{content:'';flex:1;height:1px;background:var(--bd)}
+.wk{position:absolute;top:.3rem;right:.3rem;font-family:'IBM Plex Mono',monospace;font-size:.55rem;font-weight:600;color:var(--dm)}
+.e{display:block;font-size:.5rem;font-weight:600;font-family:'IBM Plex Mono',monospace;padding:1px 3px;border-radius:3px;margin-top:1px;line-height:1.3;letter-spacing:.02em;overflow:hidden;text-overflow:ellipsis}
+.e2{white-space:normal;font-size:.48rem;color:var(--mu);font-weight:400;margin-top:0;padding:0 3px}
+.eb1{background:var(--pb);color:var(--pr);border-left:2px solid var(--pr)}
+.eb2{background:var(--gb);color:var(--gn);border-left:2px solid var(--gn)}
+.eex{background:var(--rb);color:var(--rd);border-left:2px solid var(--rd)}
+.ecc{background:var(--ob);color:var(--or);border-left:2px solid var(--or)}
+.eed{background:#1a1207;color:var(--or);border-left:2px solid var(--or)}
+.evc{background:transparent;color:var(--dm);font-style:italic}
+.efr{background:#1c1206;color:#d97706}
+.eky{background:linear-gradient(135deg,var(--rb),#5b1010);color:#fca5a5;border-left:2px solid var(--rd);font-weight:700;font-size:.55rem;animation:p 3s ease-in-out infinite}
+@keyframes p{0%,100%{box-shadow:none}50%{box-shadow:0 0 8px rgba(239,68,68,.25)}}
+.ccf{box-shadow:inset 0 0 0 2px var(--or);background:linear-gradient(135deg,#1a1005,#2a1a08)!important}
+.ccf .n{color:var(--or)!important}
+.exd{box-shadow:inset 0 0 0 2px var(--rd);background:linear-gradient(135deg,#1a0a0a,#2a1010)!important}
+.exd .n{color:var(--rd)!important}
+.tl{margin-bottom:2.5rem}
+.tl h2{font-family:'Instrument Serif',serif;font-size:1.6rem;font-weight:400;margin-bottom:1.5rem}
+.tt{position:relative;padding-left:24px}
+.tt::before{content:'';position:absolute;left:7px;top:0;bottom:0;width:2px;background:linear-gradient(to bottom,var(--gn),var(--or),var(--rd));border-radius:2px}
+.ti{position:relative;padding:.65rem 0 .65rem 1.5rem}
+.ti::before{content:'';position:absolute;left:-21px;top:.85rem;width:12px;height:12px;border-radius:50%;border:2px solid var(--bd);background:var(--sf)}
+.ti.tg::before{background:var(--gn);border-color:var(--gn)}
+.ti.to::before{background:var(--or);border-color:var(--or)}
+.ti.tr::before{background:var(--rd);border-color:var(--rd);box-shadow:0 0 12px rgba(239,68,68,.3)}
+.ti.td::before{background:var(--dm);border-color:var(--dm)}
+.d2{font-family:'IBM Plex Mono',monospace;font-size:.7rem;font-weight:700;color:var(--mu);text-transform:uppercase;letter-spacing:.08em;margin-bottom:2px}
+.t2{font-size:.9rem;font-weight:600}
+.ts{font-size:.75rem;color:var(--mu);margin-top:2px}
+footer{text-align:center;padding:2rem 0;color:var(--dm);font-size:.75rem;font-family:'IBM Plex Mono',monospace}
+@media(max-width:768px){.hr h1{font-size:2rem}.dy{min-height:55px}.e{font-size:.45rem}body{padding:1rem}}
+</style>
+</head>
+<body>
+<div class="pg">
+
+<div class="hr">
+  <h1>Calendrier <em>BTS2 SIO SLAM</em></h1>
+  <p>Session 2026 — Février à Mai · Lun matin · Mar après-midi · Mer matin</p>
+  <p style="margin-top:.4rem;color:var(--dm);font-size:.8rem">SP BiblioTech — Laravel 12 / PHP 8.3 / SQLite · 5 séances × 3h</p>
+</div>
+
+<div class="lg">
+  <div class="li"><div class="ld" style="background:var(--pr)"></div> B1 Portfolio / E5</div>
+  <div class="li"><div class="ld" style="background:var(--gn)"></div> B2 SP Laravel</div>
+  <div class="li"><div class="ld" style="background:var(--or)"></div> CCF E6 / EDC SLAM</div>
+  <div class="li"><div class="ld" style="background:var(--rd)"></div> Épreuves BTS</div>
+  <div class="li"><div class="ld" style="background:repeating-linear-gradient(135deg,var(--v1),var(--v1) 2px,var(--v2) 2px,var(--v2) 4px);border:1px solid var(--dm)"></div> Vacances</div>
+</div>
+
+<div class="cl">
+<div class="hd">Lun</div><div class="hd">Mar</div><div class="hd">Mer</div><div class="hd">Jeu</div><div class="hd">Ven</div><div class="hd">Sam</div><div class="hd">Dim</div>
+
+<div class="ms">Février 2026</div>
+<!-- S9 : 23 fév -->
+<div class="dy hc"><div class="n">23</div><span class="wk">S9</span><span class="e eb1">B1 Retour stage</span></div>
+<div class="dy hc"><div class="n">24</div><span class="e eb2">B2 Reprise S1-S3</span><span class="e2">MVC · Eloquent · CRUD</span></div>
+<div class="dy hc"><div class="n">25</div><span class="e eb1">B1 Portfolio</span><span class="e2">GitHub.io · Certifs</span></div>
+<div class="dy"><div class="n">26</div></div>
+<div class="dy"><div class="n">27</div></div>
+<div class="dy we"><div class="n">28</div></div>
+<div class="dy we"><div class="n" style="font-size:.55rem;color:var(--dm)">1 mars</div></div>
+
+<div class="ms">Mars 2026</div>
+<!-- S10 -->
+<div class="dy hc"><div class="n">2</div><span class="wk">S10</span><span class="e eb2">SP S4 Auth 1/2</span><span class="e2">Login · bcrypt · CSRF</span></div>
+<div class="dy hc"><div class="n">3</div><span class="e eb2">SP S4 Auth 2/2</span><span class="e2">Middleware · Rôles</span></div>
+<div class="dy hc"><div class="n">4</div><span class="e eb1">B1 Portfolio</span><span class="e2">Structuration</span></div>
+<div class="dy"><div class="n">5</div></div>
+<div class="dy"><div class="n">6</div></div>
+<div class="dy we"><div class="n">7</div></div>
+<div class="dy we"><div class="n">8</div></div>
+<!-- S11 -->
+<div class="dy hc"><div class="n">9</div><span class="wk">S11</span><span class="e eb2">SP S5 Tests</span><span class="e2">Unit · Feature · 70%</span></div>
+<div class="dy hc"><div class="n">10</div><span class="e eb2">SP S5 CI/CD</span><span class="e2">Actions · SonarCloud</span></div>
+<div class="dy hc"><div class="n">11</div><span class="e eb1">B1 Synthèse E5</span><span class="e2">Tableau compétences</span></div>
+<div class="dy"><div class="n">12</div></div>
+<div class="dy"><div class="n">13</div></div>
+<div class="dy we"><div class="n">14</div></div>
+<div class="dy we"><div class="n">15</div></div>
+<!-- S12 -->
+<div class="dy hc"><div class="n">16</div><span class="wk">S12</span><span class="e eb2">SP S5 Deploy</span><span class="e2">Prod · Monitoring</span></div>
+<div class="dy hc"><div class="n">17</div><span class="e eb2">Documentation</span><span class="e2">Tech · User · E5/E6</span></div>
+<div class="dy hc"><div class="n">18</div><span class="e eb1">B1 Simul E5</span></div>
+<div class="dy"><div class="n">19</div></div>
+<div class="dy"><div class="n">20</div></div>
+<div class="dy we"><div class="n">21</div></div>
+<div class="dy we"><div class="n">22</div></div>
+<!-- S13 -->
+<div class="dy hc"><div class="n">23</div><span class="wk">S13</span><span class="e ecc">Blanc E6 1/2</span><span class="e2">Table + E1</span></div>
+<div class="dy hc"><div class="n">24</div><span class="e ecc">Blanc E6 2/2</span><span class="e2">Réalisation + E2</span></div>
+<div class="dy hc"><div class="n">25</div><span class="e eb1">B1 Finitions</span><span class="e2">Captures Sonar</span></div>
+<div class="dy"><div class="n">26</div></div>
+<div class="dy"><div class="n">27</div></div>
+<div class="dy we"><div class="n">28</div></div>
+<div class="dy we"><div class="n">29</div></div>
+<!-- S14 : CCF E6 SLAM -->
+<div class="dy ccf hc"><div class="n">30</div><span class="wk">S14</span><span class="e eky" style="background:var(--ob);color:var(--or)">CCF E6 J1</span></div>
+<div class="dy ccf hc"><div class="n">31</div><span class="e eky" style="background:var(--ob);color:var(--or)">CCF E6 J2</span></div>
+
+<div class="ms">Avril 2026</div>
+<div class="dy ccf hc"><div class="n">1</div><span class="e eky" style="background:var(--ob);color:var(--or)">CCF E6 J3</span></div>
+<div class="dy"><div class="n">2</div></div>
+<div class="dy"><div class="n">3</div></div>
+<div class="dy vc"><div class="n">4</div><span class="e evc">vacances</span></div>
+<div class="dy vc"><div class="n">5</div></div>
+<!-- S15 -->
+<div class="dy vc"><div class="n">6</div><span class="wk">S15</span></div>
+<div class="dy vc"><div class="n">7</div></div>
+<div class="dy vc"><div class="n">8</div></div>
+<div class="dy vc"><div class="n">9</div></div>
+<div class="dy vc"><div class="n">10</div></div>
+<div class="dy vc"><div class="n">11</div></div>
+<div class="dy vc"><div class="n">12</div></div>
+<!-- S16 -->
+<div class="dy vc"><div class="n">13</div><span class="wk">S16</span></div>
+<div class="dy vc"><div class="n">14</div></div>
+<div class="dy vc"><div class="n">15</div></div>
+<div class="dy vc"><div class="n">16</div></div>
+<div class="dy vc"><div class="n">17</div></div>
+<div class="dy vc"><div class="n">18</div></div>
+<div class="dy vc"><div class="n">19</div></div>
+<!-- S17 EDC -->
+<div class="dy hc"><div class="n">20</div><span class="wk">S17</span><span class="e eed">EDC Algo·BDD</span></div>
+<div class="dy hc"><div class="n">21</div><span class="e eed">EDC Cyber</span></div>
+<div class="dy hc"><div class="n">22</div><span class="e eb1">B1 Post-CCF</span></div>
+<div class="dy"><div class="n">23</div></div>
+<div class="dy"><div class="n">24</div></div>
+<div class="dy we"><div class="n">25</div></div>
+<div class="dy we"><div class="n">26</div></div>
+<!-- S18 EDC -->
+<div class="dy hc"><div class="n">27</div><span class="wk">S18</span><span class="e eed">EDC Annales</span></div>
+<div class="dy hc"><div class="n">28</div><span class="e eed">EDC Annales</span></div>
+<div class="dy hc"><div class="n">29</div><span class="e eb1">B1 Prépa E5</span></div>
+<div class="dy"><div class="n">30</div></div>
+
+<div class="ms">Mai 2026</div>
+<div class="dy fe"><div class="n">1</div><span class="e efr">Férié</span></div>
+<div class="dy we"><div class="n">2</div></div>
+<div class="dy we"><div class="n">3</div></div>
+<!-- S19 -->
+<div class="dy hc"><div class="n">4</div><span class="wk">S19</span><span class="e eed">EDC Révisions</span></div>
+<div class="dy hc"><div class="n">5</div><span class="e eed">EDC Révisions</span></div>
+<div class="dy hc"><div class="n">6</div><span class="e eb1">B1 Simul E5</span></div>
+<div class="dy"><div class="n">7</div></div>
+<div class="dy fe"><div class="n">8</div><span class="e efr">Férié</span></div>
+<div class="dy we"><div class="n">9</div></div>
+<div class="dy we"><div class="n">10</div></div>
+<!-- S20 -->
+<div class="dy hc"><div class="n">11</div><span class="wk">S20</span><span class="e eed">EDC Dernières</span></div>
+<div class="dy hc"><div class="n">12</div><span class="e eed">EDC Dernières</span></div>
+<div class="dy hc"><div class="n">13</div><span class="e eb1">B1 Dernière E5</span></div>
+<div class="dy fe"><div class="n">14</div><span class="e efr">Ascension</span></div>
+<div class="dy"><div class="n">15</div><span class="e evc">pont</span></div>
+<div class="dy we"><div class="n">16</div></div>
+<div class="dy we"><div class="n">17</div></div>
+<!-- S21 écrits -->
+<div class="dy exd"><div class="n">18</div><span class="wk">S21</span><span class="e eky">E3 Maths 16h</span></div>
+<div class="dy exd"><div class="n">19</div><span class="e eex">Écrits</span></div>
+<div class="dy exd"><div class="n">20</div><span class="e eex">Écrits</span></div>
+<div class="dy exd"><div class="n">21</div><span class="e eky">E7 Cyber 14h</span></div>
+<div class="dy"><div class="n">22</div></div>
+<div class="dy we"><div class="n">23</div></div>
+<div class="dy we"><div class="n">24</div></div>
+<!-- S22 -->
+<div class="dy fe"><div class="n">25</div><span class="wk">S22</span><span class="e efr">Pentecôte</span></div>
+<div class="dy"><div class="n">26</div></div>
+<div class="dy exd"><div class="n">27</div><span class="e eky">E5 Oral</span></div>
+<div class="dy"><div class="n">28</div></div>
+<div class="dy"><div class="n">29</div></div>
+<div class="dy we"><div class="n">30</div></div>
+<div class="dy we"><div class="n">31</div></div>
+</div>
+
+<!-- TIMELINE -->
+<div class="tl">
+  <h2>Dates clés & Séances SP BiblioTech</h2>
+  <div class="tt">
+    <div class="ti tg"><div class="d2">Mar 24 février · S9</div><div class="t2">Reprise BiblioTech — Révision S1-S3</div><div class="ts">Environnement · MVC · Eloquent · CRUD · Validation · Composants Blade</div></div>
+    <div class="ti tg"><div class="d2">S10 · 2–3 mars</div><div class="t2" style="color:var(--gn)">Séance 4 — Authentification & Autorisations</div><div class="ts">Login/Register · bcrypt · CSRF · Middleware auth · 3 rôles (Admin/Biblio/User)</div></div>
+    <div class="ti tg"><div class="d2">S11 · 9–10 mars</div><div class="t2" style="color:var(--gn)">Séance 5 — Tests automatisés & CI/CD</div><div class="ts">Tests Unit/Feature · Coverage >70% · GitHub Actions · SonarCloud · Quality Gate</div></div>
+    <div class="ti tg"><div class="d2">S12 · 16–17 mars</div><div class="t2" style="color:var(--gn)">Séance 5 — Déploiement & Documentation</div><div class="ts">Config prod · Optimisations · Deploy · Monitoring · Health Check · Doc tech/user · Fiches E5/E6</div></div>
+    <div class="ti to"><div class="d2">S13 · 23–24 mars</div><div class="t2">Entraînement blanc E6</div><div class="ts">Simulation complète : table 30' + E1 20' + réalisation 60' + E2 20'</div></div>
+    <div class="ti tr"><div class="d2">Lun 30 mars → Mer 1er avril · S14</div><div class="t2" style="color:var(--rd)">CCF E6 SLAM — 3 jours</div><div class="ts">Passages oraux Situation Professionnelle BiblioTech</div></div>
+    <div class="ti td"><div class="d2">4 – 19 avril</div><div class="t2" style="color:var(--dm)">Vacances de printemps</div></div>
+    <div class="ti to"><div class="d2">S17–S20 · 20 avril → 12 mai</div><div class="t2" style="color:var(--or)">Révisions EDC SLAM</div><div class="ts">Algo · BDD · Cybersécurité · Annales E7 (après passage CCF)</div></div>
+    <div class="ti tr"><div class="d2">S21 · 18 – 21 mai</div><div class="t2" style="color:var(--rd)">Épreuves écrites BTS</div><div class="ts">Lun 18 : E3 Maths 16h · Jeu 21 : E7 Cybersécurité 14h</div></div>
+    <div class="ti tr"><div class="d2">S22 · Mercredi 27 mai</div><div class="t2" style="color:var(--rd)">Épreuve E5 — Oral Parcours de professionnalisation</div></div>
+  </div>
+</div>
+
+<footer>BTS SIO SLAM — Session 2026 · SP BiblioTech Laravel 12 / PHP 8.3 / SQLite</footer>
+</div>
+</body>
+</html>
