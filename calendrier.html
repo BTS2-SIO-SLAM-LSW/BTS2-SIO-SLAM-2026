@@ -17,7 +17,8 @@ body{font-family:'Space Grotesk',sans-serif;background:var(--bg);color:var(--tx)
 .lg{display:flex;gap:1.5rem;flex-wrap:wrap;padding:1rem 0;border-bottom:1px solid var(--bd);margin-bottom:2rem}
 .li{display:flex;align-items:center;gap:.4rem;font-size:.72rem;color:var(--mu)}
 .ld{width:8px;height:8px;border-radius:2px}
-.cl{display:grid;grid-template-columns:repeat(7,1fr);gap:2px;margin-bottom:2.5rem;background:var(--bd);border-radius:12px;overflow:hidden;border:1px solid var(--bd)}
+.cl{display:grid;grid-template-columns:repeat(5,1fr);gap:2px;margin-bottom:2.5rem;background:var(--bd);border-radius:12px;overflow:hidden;border:1px solid var(--bd)}
+.cl .hd:nth-child(n+6),.cl .dy:nth-child(n+6){display:none}
 .hd{background:var(--sf);padding:.6rem .4rem;text-align:center;font-family:'IBM Plex Mono',monospace;font-size:.65rem;font-weight:600;color:var(--mu);text-transform:uppercase;letter-spacing:.1em}
 .dy{background:var(--sf);min-height:82px;padding:.4rem;position:relative;transition:background .15s}
 .dy:hover{background:var(--s2)}
