@@ -12,10 +12,10 @@ Contient la documentation et ressources pour le bloc 2 "Développement Logiciel"
 
 ## 📅 Planification et Planning
 
-### [Calendrier](https://ggaillard.github.io/BTS2-SIO-SLAM-2026/calendrier.html)
+### [Calendrier](https://bts2-sio-slam-lsw.github.io/BTS2-SIO-SLAM-2026/calendrier.html)
 Accédez au calendrier des événements et dates importantes.
 
-### [Planning Visuel](https://ggaillard.github.io/BTS2-SIO-SLAM-2026/planning-visuel.html)
+### [Planning Visuel](https://bts2-sio-slam-lsw.github.io/BTS2-SIO-SLAM-2026/planning-visuel.html)
 Consultez le planning visuel du projet.
 
 ## 🎯 Accès Rapide
